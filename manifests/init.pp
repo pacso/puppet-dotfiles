@@ -4,7 +4,7 @@
 #
 #   include dotfiles
 class dotfiles {
-  repository { "${boxen::config::srcdir}/dotfiles"
-    source => 'pacso/dotfiles
+  repository { "${boxen::config::srcdir}/dotfiles":
+    source => 'pacso/dotfiles',
   }
 }
